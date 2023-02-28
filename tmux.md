@@ -38,6 +38,11 @@ Attach to a session with the name mysession:
 `$ tmux swap-window -t 0` - to swap position of current window with window specified
 after the t flag
 
+### Panes
+
+`Bind-key q` - display pane numbers
+`$ tmux kill-pane -a` - kill all panes but the current one
+
 ### Commands
 
 `Bind-key ?` - list bindings
