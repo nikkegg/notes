@@ -22,20 +22,30 @@ Attach to a session with the name mysession:
 ### Windows
 
 `Bind-key w` - window preview
+
 `Bind-key ,` - rename window
+
 `Bind-key c` - open new window
+
 `Bind-key &` - kill window
+
 `Bind-key v` - open vertical pane
+
 `Bind-key x` - kill pane
+
 `Bind-key ;` - jump to last active pane
+
 `$ tmux swap-window -t 0` - to swap position of current window with window specified
 after the t flag
 
 ### Commands
 
 `Bind-key ?` - list bindings
+
 `Bind-key :` - enter commands mode
+
 `Bind-key [` - enter copy-mode
+
 `/|?` - to search forwards|backwards in copy mode
 
 ### Scripting tmux
