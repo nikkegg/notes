@@ -28,3 +28,11 @@ even if you have reset local branch to remote and lost your changes
 `git stash show <stash_entry> -p` - preview content of stashed entry
 
 `git stash push -m` - name the stash your pushing
+
+### Tag
+
+`git tag` - list existing tags
+
+`git tag -l "<regex>"` - grep for tags matching `<regex>`
+
+`git tag <tag_name> <commit_hash>` - tag commit on the remote
